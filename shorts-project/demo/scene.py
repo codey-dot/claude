@@ -181,7 +181,7 @@ c = camA.constraints.new('TRACK_TO'); c.target = aim
 camA.data.dof.use_dof = True; camA.data.dof.focus_object = root; camA.data.dof.aperture_fstop = 2.8
 key(camA, "location", (1.0, -11.5, 1.3), 1); key(camA, "location", (1.0, -9.2, 1.3), 86)        # slow push-in, 85 f
 key(camA, "location", (1.0, -9.6, 1.25), 92); key(camA, "location", (0.6, -10.5, 1.0), 195)     # recoil, then drift back
-key(aim, "location", (1.0, 0, 2.3), 92); key(aim, "location", (2.4, 0, 5.2), 122); key(aim, "location", (2.6, 0, 5.6), 195)  # tilt up after the boulder
+key(aim, "location", (1.0, 0, 2.3), 92); key(aim, "location", (1.7, 0, 3.3), 122); key(aim, "location", (1.8, 0, 3.5), 195)  # tilt up after the boulder
 aimC = empty("aimC", (0.15, 0, 1.75))
 bpy.ops.object.camera_add(location=(4.6, -5.2, 2.3)); camC = bpy.context.object; camC.data.lens = 42
 c = camC.constraints.new('TRACK_TO'); c.target = aimC
