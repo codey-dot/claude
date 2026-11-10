@@ -4,6 +4,10 @@
 - Phase 0: PARTIAL. Hardware, tools, network and render benchmark measured. Reference inventory BLOCKED.
 - Phase 1A onward: NOT STARTED. Blocked: the 5 reference videos are not on this machine.
 
+## Done since
+- Official YouTube facts verified: see verified_facts.md.
+- Session moved to environment "Shorts pipeline (claude repo)" with support.google.com allowed.
+
 ## Blockers
 1. Reference videos and the pre-supplied project data live on the user's Windows PC
    (C:\Users\suvam\ricks clip(cloud)\reference and \project). Not present in the cloud container;
