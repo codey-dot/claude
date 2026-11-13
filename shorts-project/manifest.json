@@ -1,76 +1,83 @@
 {
- "schema": 1,
- "updated": "2026-11-13",
- "phase": "short01-render",
- "shorts": [
-  {
-   "id": "short01",
-   "title": "What If You Had Infinite Strength?",
-   "status": "rendering",
-   "frames": "1-1020 step 2 (510 renders)",
-   "samples": 6,
-   "shots": [
+  "schema": 1,
+  "updated": "2026-11-13",
+  "phase": "short01-done",
+  "shorts": [
     {
-     "n": 1,
-     "start": 1,
-     "end": 156
-    },
-    {
-     "n": 2,
-     "start": 157,
-     "end": 276
-    },
-    {
-     "n": 3,
-     "start": 277,
-     "end": 468
-    },
-    {
-     "n": 4,
-     "start": 469,
-     "end": 630
-    },
-    {
-     "n": 5,
-     "start": 631,
-     "end": 798
-    },
-    {
-     "n": 6,
-     "start": 799,
-     "end": 1020
+      "id": "short01",
+      "title": "What If You Had Infinite Strength?",
+      "status": "done",
+      "frames": "1-1020 step 2 (510 renders)",
+      "samples": 6,
+      "shots": [
+        {
+          "n": 1,
+          "start": 1,
+          "end": 156
+        },
+        {
+          "n": 2,
+          "start": 157,
+          "end": 276
+        },
+        {
+          "n": 3,
+          "start": 277,
+          "end": 468
+        },
+        {
+          "n": 4,
+          "start": 469,
+          "end": 630
+        },
+        {
+          "n": 5,
+          "start": 631,
+          "end": 798
+        },
+        {
+          "n": 6,
+          "start": 799,
+          "end": 1020
+        }
+      ],
+      "frames_dir": "scratchpad/full/frames (not in git; rerun scene.py to resume)",
+      "output": "short01/out/short01.mp4",
+      "measured": {
+        "duration_s": 34.0,
+        "render_s_per_frame": "~18-21",
+        "assembly_s": 72,
+        "integrated_lufs": -16.2
+      }
     }
-   ],
-   "frames_dir": "scratchpad/full/frames (not in git; rerun scene.py to resume)"
-  }
- ],
- "benchmarks": [
-  {
-   "engine": "CYCLES",
-   "device": "CPU",
-   "samples": 64,
-   "denoise": true,
-   "res": "1080x1920",
-   "sec_per_frame": [
-    172.62,
-    167.85
-   ]
-  },
-  {
-   "engine": "CYCLES",
-   "device": "CPU",
-   "samples": 8,
-   "denoise": true,
-   "res": "1080x1920",
-   "sec_per_frame": [
-    30.06,
-    29.65
-   ]
-  },
-  {
-   "engine": "BLENDER_EEVEE",
-   "status": "failed",
-   "error": "libEGL.so.1 not found, exit 134"
-  }
- ]
+  ],
+  "benchmarks": [
+    {
+      "engine": "CYCLES",
+      "device": "CPU",
+      "samples": 64,
+      "denoise": true,
+      "res": "1080x1920",
+      "sec_per_frame": [
+        172.62,
+        167.85
+      ]
+    },
+    {
+      "engine": "CYCLES",
+      "device": "CPU",
+      "samples": 8,
+      "denoise": true,
+      "res": "1080x1920",
+      "sec_per_frame": [
+        30.06,
+        29.65
+      ]
+    },
+    {
+      "engine": "BLENDER_EEVEE",
+      "status": "failed",
+      "error": "libEGL.so.1 not found, exit 134"
+    }
+  ]
 }

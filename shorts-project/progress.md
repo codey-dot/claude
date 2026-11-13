@@ -33,3 +33,7 @@ Get the reference videos onto a machine the agent can read, then start Phase 1A.
 - short01/scene.py (6 shots), post.py + timeline.json, vo/ (Kokoro am_michael), package.md.
 - Resume render: python short01/scene.py -- <frames_dir> 6 2   (skips existing frames)
 - Then: python short01/post.py short01/timeline.json <frames_dir> short01/vo short01/Anton-Regular.ttf short01/out/short01.mp4
+
+## 2026-11-13: Short 01 done
+- All 510 frames rendered (Cycles CPU, 6 spp, ~18–21 s/frame, about 2.8 h of render time in total including the resume after the container restart).
+- Assembled with post.py in 72 s: short01/out/short01.mp4, 34.0 s, 1080x1920, 30 fps, H.264 + AAC. Integrated loudness -16.2 LUFS (single-pass loudnorm landed under the -14 target).
