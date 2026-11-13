@@ -1,0 +1,21 @@
+{
+  "fps": 30, "frames": 1020, "voice": "am_michael",
+  "lines": [
+    {"t": 0.15, "chunks": [["WHAT IF YOU HAD", null], ["INFINITE STRENGTH?", "INFINITE"]]},
+    {"t": 2.0,  "chunks": [["YOUR MUSCLES", null], ["NEVER TIRE,", "NEVER"], ["AND YOUR BODY", null], ["CAN'T BREAK.", "BREAK."]]},
+    {"t": 5.5,  "chunks": [["DAY ONE,", null], ["YOU LIFT A BOULDER", "BOULDER"], ["WITH ONE FINGER.", "FINGER."]]},
+    {"t": 9.5,  "chunks": [["THEN YOU TRY", null], ["TO WALK.", null], ["TOO MUCH PUSH,", "PUSH,"], ["AND YOUR FOOT", null], ["PUNCHES STRAIGHT", "PUNCHES"], ["THROUGH THE ROCK.", null]]},
+    {"t": 15.8, "chunks": [["THROW THE BOULDER?", null], ["NEWTON SAYS", "NEWTON"], ["IT PUSHES BACK", null], ["JUST AS HARD.", "HARD."]]},
+    {"t": 21.2, "chunks": [["JUMP,", "JUMP,"], ["AND YOU'RE GONE.", "GONE."]]},
+    {"t": 23.6, "chunks": [["YOUR BODY", null], ["SURVIVES THE LANDING.", "SURVIVES"], ["THE GROUND", null], ["DOESN'T.", "DOESN'T."]]},
+    {"t": 27.6, "chunks": [["SO THE HARDEST THING", "HARDEST"], ["YOU'D EVER LEARN...", null]]},
+    {"t": 30.6, "chunks": [["IS HOW TO", null], ["BE GENTLE.", "GENTLE."]]}
+  ],
+  "sfx": {
+    "hum": [2.6], "rumble": [[6.6, 7.9]],
+    "step": [9.87, 10.37, 10.87, 11.37, 11.87, 12.37],
+    "impact_small": [12.67], "impact_mid": [17.27], "grind": [[17.3, 18.7]],
+    "launch": [21.87], "fall": [[24.6, 25.27]], "impact_big": [25.3], "crumble": [30.13]
+  },
+  "music_drop": 29.4, "end_fade": [33.0, 34.0]
+}

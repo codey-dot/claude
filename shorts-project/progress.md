@@ -28,3 +28,8 @@
 
 ## Next step on resume
 Get the reference videos onto a machine the agent can read, then start Phase 1A.
+
+## 2026-11-13: Short 01 (full, 34 s)
+- short01/scene.py (6 shots), post.py + timeline.json, vo/ (Kokoro am_michael), package.md.
+- Resume render: python short01/scene.py -- <frames_dir> 6 2   (skips existing frames)
+- Then: python short01/post.py short01/timeline.json <frames_dir> short01/vo short01/Anton-Regular.ttf short01/out/short01.mp4
